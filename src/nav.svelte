@@ -1,4 +1,14 @@
-<a href="#/"> vist page homepage </a><br>
-<a href="#/a"> vist page a </a><br>
-<a href="#/b"> vist page b </a><br>
-<a href="#/c"> vist page c </a><br>
+<div id="root">
+	VentureHack'25
+</div>
+
+<style>
+	#root {
+		display: flex;
+		justify-content: space-between;
+		margin: 10px;
+		border-radius: 10px;
+        background-color: #161616;
+		position: fixed;
+	}
+</style>

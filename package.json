@@ -15,6 +15,7 @@
     "vite": "^6.2.4"
   },
   "dependencies": {
+    "gsap": "^3.12.7",
     "svelte-spa-router": "^4.0.1"
   }
 }
