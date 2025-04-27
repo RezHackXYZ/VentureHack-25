@@ -47,7 +47,7 @@
 		<h4 class="FrontText">One Idea</h4>
 		<h3 class="FrontText">100+ Teen Hackers</h3>
 		<h2 class="FrontText">One Hackathon This Summer</h2>
-		<h1 class="FrontText">VentureHack'25</h1>
+		<h1 class="FrontText">VentureHack '25</h1>
 		<button id="RSVPFrontTextButton" class="FrontText">RSVP NOW</button>
 	</div>
 
@@ -138,16 +138,18 @@
 		will-change: opacity, transform;
 	}
 
-	.FrontText:nth-child(1) {
-		font-size: 1.5rem;
-	}
-	.FrontText:nth-child(2) {
-		font-size: 2rem;
-	}
-	.FrontText:nth-child(3) {
-		font-size: 3rem;
-	}
-	.FrontText:nth-child(4) {
-		font-size: 6rem;
+	@media (min-width: 950px) {
+		.FrontText:nth-child(1) {
+			font-size: 2rem;
+		}
+		.FrontText:nth-child(2) {
+			font-size: 3rem;
+		}
+		.FrontText:nth-child(3) {
+			font-size: 4rem;
+		}
+		.FrontText:nth-child(4) {
+			font-size: 8rem;
+		}
 	}
 </style>
