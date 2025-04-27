@@ -16,10 +16,7 @@
 
 <style>
 	:root {
-		font-family: "JetBrains Mono", monospace;
-		font-optical-sizing: auto;
-		font-weight: 150;
-		font-style: normal;
+		font-family: "Space Grotesk", sans-serif;
 		background-color: black;
 		color: white;
 	}

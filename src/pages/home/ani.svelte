@@ -131,34 +131,24 @@
 	}
 
 	.FrontText:nth-child(1) {
-		color: rgb(87, 87, 87);
-	}
-	.FrontText:nth-child(2) {
-		color: #6e6e6e;
-	}
-	.FrontText:nth-child(3) {
-		color: #8a8a8a;
-	}
-	.FrontText:nth-child(4) {
-		color: #8a8a8a;
-	}
-	.FrontText:nth-child(5) {
-		color: #ffffff;
-	}
-
-	.FrontText:nth-child(1) {
+		color: #575757;
 		font-size: 2rem;
 	}
 	.FrontText:nth-child(2) {
+		color: #6e6e6e;
 		font-size: 3rem;
 	}
 	.FrontText:nth-child(3) {
+		color: #8a8a8a;
 		font-size: 3rem;
 	}
 	.FrontText:nth-child(4) {
+		color: #8a8a8a;
 		font-size: 4rem;
 	}
 	.FrontText:nth-child(5) {
+		color: #ffffff;
 		font-size: 8rem;
+		text-shadow: 2px 2px 30px #00ff40;
 	}
 </style>
