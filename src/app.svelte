@@ -1,16 +1,16 @@
 <script>
 	import Router from "svelte-spa-router";
 
-	import Home from "./pages/home.svelte";
+	import Home from "./pages/home/home.svelte";
+	import parentsguide from "./pages/parents-guide/parents-guide.svelte";
+
 	let routes = {
 		"/": Home,
+		"/parents-guide": parentsguide,
 	};
-
-	import Nav from "./nav.svelte";
 </script>
 
 <div id="root">
-	<Nav />
 	<Router {routes} />
 </div>
 
