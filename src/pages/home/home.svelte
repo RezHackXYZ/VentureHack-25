@@ -1,17 +1,16 @@
 <script>
-	import FrontText from "./FrontText.svelte";
-	import WhatWillHappen from "./WhatWillHappen.svelte";
+	import Email from "./Email.svelte";
+	import Story from "./story.svelte";
 </script>
 
 <div id="root">
-	<FrontText />
+	<Story />
 
-	<WhatWillHappen />
+	<Email />
 </div>
 
 <style>
 	#root {
-		position: relative;
-		width: 100%;
+		height: 100%;
 	}
 </style>

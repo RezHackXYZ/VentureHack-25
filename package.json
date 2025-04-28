@@ -17,6 +17,7 @@
   "dependencies": {
     "gsap": "^3.12.7",
     "leaflet": "^1.9.4",
+    "motion": "^12.9.2",
     "svelte-spa-router": "^4.0.1"
   }
 }

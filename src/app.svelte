@@ -12,7 +12,7 @@
 	};
 </script>
 
-<Nav />
+<!--<Nav />-->
 
 <div id="root">
 	<Router {routes} />

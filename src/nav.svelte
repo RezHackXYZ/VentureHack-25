@@ -41,6 +41,23 @@
 				}
 			}}>/What Will Happen</a
 		>
+        <a
+			href="#Whereandwhen"
+			role="button"
+			onclick={(e) => {
+				e.preventDefault();
+				gsap.to(window, { duration: 1, scrollTo: "#Whereandwhen" });
+			}}
+			onkeydown={(e) => {
+				if (e.key === "Enter" || e.key === " ") {
+					e.preventDefault();
+					gsap.to(window, {
+						duration: 1,
+						scrollTo: "#Whereandwhen",
+					});
+				}
+			}}>/Where & When</a
+		>
 	</div>
 </div>
 
