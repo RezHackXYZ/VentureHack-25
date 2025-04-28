@@ -1,4 +1,6 @@
 <script>
+	import Nav from "./nav.svelte";
+
 	import Router from "svelte-spa-router";
 
 	import Home from "./pages/home/home.svelte";
@@ -9,6 +11,8 @@
 		"/parents-guide": parentsguide,
 	};
 </script>
+
+<Nav />
 
 <div id="root">
 	<Router {routes} />
